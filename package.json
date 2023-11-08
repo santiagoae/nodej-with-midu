@@ -1,0 +1,28 @@
+{
+  "name": "nodejs.with-midu",
+  "version": "1.0.0",
+  "description": "El mejor curso free de Node en español",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagoae/nodej-with-midu.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "midudev"
+  ],
+  "author": "el mejor profe midu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagoae/nodej-with-midu/issues"
+  },
+  "homepage": "https://github.com/santiagoae/nodej-with-midu#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  }
+}
