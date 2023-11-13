@@ -1,0 +1,42 @@
+###recuperar todas las peliculas
+GET http://localhost:1234/movies
+
+###recuperar pelicula por id
+GET http://localhost:1234/movies/61e57fd65c5338f43c777f4a
+
+###recuperar todas las peliculas por anio
+GET http://localhost:1234/movies?year=1899
+
+###crear una pelicula
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "primaryImage": {
+    "id": "rm211543552",
+    "width": 226,
+    "height": 300,
+    "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/11/lobo-wall-street.jpg?tf=2048x"
+  },
+  "titleType": {
+    "text": "Short",
+    "id": "short",
+    "isSeries": false,
+    "isEpisode": false,
+    "__typename": "TitleType"
+  },
+  "titleText": {
+    "text": "El lobo de wallstreet",
+    "__typename": "TitleText"
+  },
+  "originalTitleText": {
+    "text": "El lobo de wallstreet",
+    "__typename": "TitleText"
+  },
+  "releaseYear": {
+    "year": 2013,
+    "endYear": null,
+    "__typename": "YearRange"
+  },
+  "releaseDate": null
+}
