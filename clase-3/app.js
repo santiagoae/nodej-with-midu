@@ -1,6 +1,7 @@
 const express = require("express");
 const crypto = require("node:crypto");
 const jsonMovies = require("./movies.json");
+const movieSchema = require("./schemas/movies");
 
 const app = express();
 app.use(express.json());
@@ -32,24 +33,15 @@ app.get("/movies/:id", (req, res) => {
 });
 
 app.post("/movies", (req, res) => {
-  const {
-    primaryImage,
-    titleType,
-    titleText,
-    originalTitleText,
-    releaseYear,
-    releaseDate,
-  } = req.body;
+  const result = movieSchema.validateMovie(req.body);
+  if (result.error) {
+    return res.status(400).json({ error: JSON.parse(result.error.message) });
+  }
 
   const newMovie = {
     _id: crypto.randomUUID(),
     id: "tt0056780",
-    primaryImage,
-    titleType,
-    titleText,
-    originalTitleText,
-    releaseYear,
-    releaseDate,
+    ...result.data,
   };
 
   jsonMovies.results.push(newMovie);
