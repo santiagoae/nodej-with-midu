@@ -1,377 +1,150 @@
+[{
+  "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+  "title": "The Shawshank Redemption",
+  "year": 1994,
+  "director": "Frank Darabont",
+  "duration": 142,
+  "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+  "genre": ["Drama"],
+  "rate": 9.3
+},
 {
-    "page": 1,
-    "next": "/titles?page=2",
-    "entries": 10,
-    "results": [
-      {
-        "_id": "61e57fd65c5338f43c777f4a",
-        "id": "tt0000081",
-        "primaryImage": {
-          "id": "rm211543552",
-          "width": 226,
-          "height": 300,
-          "url": "https://m.media-amazon.com/images/M/MV5BM2ZlYjA4NmItZTYxYy00MGFiLTg3MWUtNzZmYjE1ODZmMThjXkEyXkFqcGdeQXVyNTI2NTY2MDI@._V1_.jpg",
-          "caption": {
-            "plainText": "Les haleurs de bateaux (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Les haleurs de bateaux",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Les haleurs de bateaux",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": null
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f4c",
-        "id": "tt0000045",
-        "primaryImage": {
-          "id": "rm362538496",
-          "width": 226,
-          "height": 300,
-          "url": "https://m.media-amazon.com/images/M/MV5BNzBjZjI4YjYtNGIyOC00ZDQyLTg0OTctN2U2YmUyMjJiZTQzXkEyXkFqcGdeQXVyNTI2NTY2MDI@._V1_.jpg",
-          "caption": {
-            "plainText": "Les blanchisseuses (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Les blanchisseuses",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Les blanchisseuses",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": {
-          "day": null,
-          "month": null,
-          "year": 1896,
-          "__typename": "ReleaseDate"
-        }
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f4e",
-        "id": "tt0000066",
-        "primaryImage": {
-          "id": "rm1117513216",
-          "width": 226,
-          "height": 300,
-          "url": "https://m.media-amazon.com/images/M/MV5BZGUxMmJiZjEtMDdkNC00MGMzLWI3MTItOTJiYmNhOGM0Mjk5XkEyXkFqcGdeQXVyNTI2NTY2MDI@._V1_.jpg",
-          "caption": {
-            "plainText": "Dessinateur: Von Bismark (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Dessinateur: Von Bismark",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Dessinateur: Von Bismark",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": null
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f50",
-        "id": "tt0000049",
-        "primaryImage": {
-          "id": "rm4062580736",
-          "width": 1280,
-          "height": 720,
-          "url": "https://m.media-amazon.com/images/M/MV5BNjQ0YzQwYjctMTljYi00MzhmLTliMGUtMTY2NzE3MjgzYzYzXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
-          "caption": {
-            "plainText": "Boxing Match; or, Glove Contest (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Boxing Match; or, Glove Contest",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Boxing Match; or, Glove Contest",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": {
-          "day": null,
-          "month": 1,
-          "year": 1896,
-          "__typename": "ReleaseDate"
-        }
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f52",
-        "id": "tt0000103",
-        "primaryImage": {
-          "id": "rm597419520",
-          "width": 226,
-          "height": 300,
-          "url": "https://m.media-amazon.com/images/M/MV5BNDgxYjBjY2QtYjg5Mi00MGI2LWFlZWUtNWI5MDAzOTMyOGM4XkEyXkFqcGdeQXVyNTI2NTY2MDI@._V1_.jpg",
-          "caption": {
-            "plainText": "Plus fort que le maître (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Plus fort que le maître",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Plus fort que le maître",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": null
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f54",
-        "id": "tt0000133",
-        "primaryImage": {
-          "id": "rm1738270208",
-          "width": 226,
-          "height": 300,
-          "url": "https://m.media-amazon.com/images/M/MV5BMmQyNGUxNzYtZGNjNi00YjAzLTlkZGUtNzkyMjUxMzdmOTFkXkEyXkFqcGdeQXVyNTI2NTY2MDI@._V1_.jpg",
-          "caption": {
-            "plainText": "La voiture du potier (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "La voiture du potier",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "La voiture du potier",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": null
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f56",
-        "id": "tt0000125",
-        "primaryImage": null,
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "The Terrible Railway Accident",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "The Terrible Railway Accident",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": null
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f58",
-        "id": "tt0000184",
-        "primaryImage": {
-          "id": "rm2943491328",
-          "width": 700,
-          "height": 525,
-          "url": "https://m.media-amazon.com/images/M/MV5BNjg1MGM4Y2MtYThkNy00NDc0LWIxMzItYzk0MDc1ZTRhNTkxXkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_.jpg",
-          "caption": {
-            "plainText": "Cripple Creek Bar-Room Scene (1899)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Cripple Creek Bar-Room Scene",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Cripple Creek Bar-Room Scene",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1899,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": {
-          "day": null,
-          "month": 5,
-          "year": 1899,
-          "__typename": "ReleaseDate"
-        }
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f5a",
-        "id": "tt0000109",
-        "primaryImage": {
-          "id": "rm2010186752",
-          "width": 614,
-          "height": 819,
-          "url": "https://m.media-amazon.com/images/M/MV5BNjJhZjUzODMtZjg4ZS00OTQ3LWFhYjctYzYxZDM5OGNmZWFlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_.jpg",
-          "caption": {
-            "plainText": "Rip Meeting the Dwarf (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Rip Meeting the Dwarf",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Rip Meeting the Dwarf",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": {
-          "day": null,
-          "month": 9,
-          "year": 1896,
-          "__typename": "ReleaseDate"
-        }
-      },
-      {
-        "_id": "61e57fd65c5338f43c777f5c",
-        "id": "tt0000086",
-        "primaryImage": {
-          "id": "rm1872487936",
-          "width": 226,
-          "height": 300,
-          "url": "https://m.media-amazon.com/images/M/MV5BNzdmZjgzMmQtNWNmYS00NTIzLTkxYjctNmUxYmJlMDAzZDk4XkEyXkFqcGdeQXVyNTI2NTY2MDI@._V1_.jpg",
-          "caption": {
-            "plainText": "Jetée et plage de Trouville (1er partie) (1896)",
-            "__typename": "Markdown"
-          },
-          "__typename": "Image"
-        },
-        "titleType": {
-          "text": "Short",
-          "id": "short",
-          "isSeries": false,
-          "isEpisode": false,
-          "__typename": "TitleType"
-        },
-        "titleText": {
-          "text": "Jetée et plage de Trouville (1er partie)",
-          "__typename": "TitleText"
-        },
-        "originalTitleText": {
-          "text": "Jetée et plage de Trouville (1er partie)",
-          "__typename": "TitleText"
-        },
-        "releaseYear": {
-          "year": 1896,
-          "endYear": null,
-          "__typename": "YearRange"
-        },
-        "releaseDate": null
-      }
-    ]
-  }
+  "id": "c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf",
+  "title": "The Dark Knight",
+  "year": 2008,
+  "director": "Christopher Nolan",
+  "duration": 152,
+  "poster": "https://i.ebayimg.com/images/g/yokAAOSw8w1YARbm/s-l1200.jpg",
+  "genre": ["Action", "Crime", "Drama"],
+  "rate": 9.0
+},
+{
+  "id": "5ad1a235-0d9c-410a-b32b-220d91689a08",
+  "title": "Inception",
+  "year": 2010,
+  "director": "Christopher Nolan",
+  "duration": 148,
+  "poster": "https://m.media-amazon.com/images/I/91Rc8cAmnAL._AC_UF1000,1000_QL80_.jpg",
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "rate": 8.8
+},
+{
+  "id": "241bf55d-b649-4109-af7c-0e6890ded3fc",
+  "title": "Pulp Fiction",
+  "year": 1994,
+  "director": "Quentin Tarantino",
+  "duration": 154,
+  "poster": "https://www.themoviedb.org/t/p/original/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+  "genre": ["Crime", "Drama"],
+  "rate": 8.9
+},
+{
+  "id": "9e6106f0-848b-4810-a11a-3d832a5610f9",
+  "title": "Forrest Gump",
+  "year": 1994,
+  "director": "Robert Zemeckis",
+  "duration": 142,
+  "poster": "https://i.ebayimg.com/images/g/qR8AAOSwkvRZzuMD/s-l1600.jpg",
+  "genre": ["Drama", "Romance"],
+  "rate": 8.8
+},
+{
+  "id": "7e3fd5ab-60ff-4ae2-92b6-9597f0308d1",
+  "title": "Gladiator",
+  "year": 2000,
+  "director": "Ridley Scott",
+  "duration": 155,
+  "poster": "https://img.fruugo.com/product/0/60/14417600_max.jpg",
+  "genre": ["Action", "Adventure", "Drama"],
+  "rate": 8.5
+},
+{
+  "id": "c906673b-3948-4402-ac7f-73ac3a9e3105",
+  "title": "The Matrix",
+  "year": 1999,
+  "director": "Lana Wachowski",
+  "duration": 136,
+  "poster": "https://i.ebayimg.com/images/g/QFQAAOSwAQpfjaA6/s-l1200.jpg",
+  "genre": ["Action", "Sci-Fi"],
+  "rate": 8.7
+},
+{
+  "id": "b6e03689-cccd-478e-8565-d92f40813b13",
+  "title": "Interstellar",
+  "year": 2014,
+  "director": "Christopher Nolan",
+  "duration": 169,
+  "poster": "https://m.media-amazon.com/images/I/91obuWzA3XL._AC_UF1000,1000_QL80_.jpg",
+  "genre": ["Adventure", "Drama", "Sci-Fi"],
+  "rate": 8.6
+},
+{
+  "id": "aa391090-b938-42eb-b520-86ea0aa3917b",
+  "title": "The Lord of the Rings: The Return of the King",
+  "year": 2003,
+  "director": "Peter Jackson",
+  "duration": 201,
+  "poster": "https://i.ebayimg.com/images/g/0hoAAOSwe7peaMLW/s-l1600.jpg",
+  "genre": ["Action", "Adventure", "Drama"],
+  "rate": 8.9
+},
+{
+  "id": "2e6900e2-0b48-4fb6-ad48-09c7086e54fe",
+  "title": "The Lion King",
+  "year": 1994,
+  "director": "Roger Allers, Rob Minkoff",
+  "duration": 88,
+  "poster": "https://m.media-amazon.com/images/I/81BMmrwSFOL._AC_UF1000,1000_QL80_.jpg",
+  "genre": ["Animation", "Adventure", "Drama"],
+  "rate": 8.5
+},
+{
+  "id": "04986507-b3ed-442c-8ae7-4c5df804f896",
+  "title": "The Avengers",
+  "year": 2012,
+  "director": "Joss Whedon",
+  "duration": 143,
+  "poster": "https://img.fruugo.com/product/7/41/14532417_max.jpg",
+  "genre": ["Action", "Adventure", "Sci-Fi"],
+  "rate": 8.0
+},
+{
+  "id": "7d2832f8-c70a-410e-8963-4c93bf36cc9c",
+  "title": "Jurassic Park",
+  "year": 1993,
+  "director": "Steven Spielberg",
+  "duration": 127,
+  "poster": "https://vice-press.com/cdn/shop/products/Jurassic-Park-Editions-poster-florey.jpg?v=1654518755&width=1024",
+  "genre": ["Adventure", "Sci-Fi"],
+  "rate": 8.1
+},
+{
+  "id": "ccf36f2e-8566-47f7-912d-9f4647250bc7",
+  "title": "Titanic",
+  "year": 1997,
+  "director": "James Cameron",
+  "duration": 195,
+  "poster": "https://i.pinimg.com/originals/42/42/65/4242658e6f1b0d6322a4a93e0383108b.png",
+  "genre": ["Drama", "Romance"],
+  "rate": 7.8
+},
+{
+  "id": "8fb17ae1-bdfe-45e5-a871-4772d7e526b8",
+  "title": "The Social Network",
+  "year": 2010,
+  "director": "David Fincher",
+  "duration": 120,
+  "poster": "https://i.pinimg.com/originals/7e/37/b9/7e37b994b613e94cba64f307b1983e39.jpg",
+  "genre": ["Biography", "Drama"],
+  "rate": 7.7
+},
+{
+  "id": "6a360a18-c645-4b47-9a7b-2a71babbf3e0",
+  "title": "Avatar",
+  "year": 2009,
+  "director": "James Cameron",
+  "duration": 162,
+  "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+  "genre": ["Action", "Adventure", "Fantasy"],
+  "rate": 7.8
+}]

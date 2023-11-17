@@ -1,48 +1,45 @@
 const z = require("zod");
-const moviesSchema = z.object({
-  primaryImage: z.object({
-    id: z.string({
-      invalid_type_error: "Id is not a string",
-      required_error: "Id is required for all movie images",
-    }),
-    width: z.number().positive(),
-    height: z.number().positive(),
-    url: z.string().url({
-      message: "This is not a valid url",
-    }),
-    caption: z.object({
-      plainText: z.string(),
-      __typename: z.string(),
-    }),
-    __typename: z.string(),
+
+const movieSchema = z.object({
+  title: z.string({
+    invalid_type_error: "Movie title must be a string",
+    required_error: "Movie title is required.",
   }),
-  titleType: z.object({
-    text: z.string(),
-    id: z.string(),
-    isSeries: z.boolean(),
-    isEpisode: z.boolean(),
-    __typename: z.string(),
+  year: z.number().int().min(1900).max(2024),
+  director: z.string(),
+  duration: z.number().int().positive(),
+  rate: z.number().min(0).max(10).default(5),
+  poster: z.string().url({
+    message: "Poster must be a valid URL",
   }),
-  titleText: z.object({
-    text: z.string(),
-    __typename: z.string(),
-  }),
-  originalTitleText: z.object({
-    text: z.string(),
-    __typename: z.string(),
-  }),
-  releaseYear: z.object({
-    year: z.number().int().positive().min(1800).max(2024),
-    endYear: z.number().int().positive() || z.null(),
-    __typename: z.string(),
-  }),
-  releaseDate: z.date() || z.null(),
+  genre: z.array(
+    z.enum([
+      "Action",
+      "Adventure",
+      "Crime",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Horror",
+      "Thriller",
+      "Sci-Fi",
+    ]),
+    {
+      required_error: "Movie genre is required.",
+      invalid_type_error: "Movie genre must be an array of enum Genre",
+    }
+  ),
 });
 
-function validateMovie(object) {
-  return moviesSchema.safeParse(object); //lo que hace el safeparse es que te devuelve si hay un error o no
+function validateMovie(input) {
+  return movieSchema.safeParse(input);
+}
+
+function validatePartialMovie(input) {
+  return movieSchema.partial().safeParse(input);
 }
 
 module.exports = {
   validateMovie,
+  validatePartialMovie,
 };

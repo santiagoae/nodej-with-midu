@@ -2,41 +2,33 @@
 GET http://localhost:1234/movies
 
 ###recuperar pelicula por id
-GET http://localhost:1234/movies/61e57fd65c5338f43c777f4a
+GET http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 
 ###recuperar todas las peliculas por anio
-GET http://localhost:1234/movies?year=1899
+GET http://localhost:1234/movies?year=1994
 
 ###crear una pelicula
 POST http://localhost:1234/movies
 Content-Type: application/json
 
 {
-  "primaryImage": {
-    "id": "rm211543552",
-    "width": 226,
-    "height": 300,
-    "url": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2016/11/lobo-wall-street.jpg?tf=2048x"
-  },
-  "titleType": {
-    "text": "Short",
-    "id": "short",
-    "isSeries": false,
-    "isEpisode": false,
-    "__typename": "TitleType"
-  },
-  "titleText": {
-    "text": "El lobo de wallstreet",
-    "__typename": "TitleText"
-  },
-  "originalTitleText": {
-    "text": "El lobo de wallstreet",
-    "__typename": "TitleText"
-  },
-  "releaseYear": {
-    "year": 2013,
-    "endYear": null,
-    "__typename": "YearRange"
-  },
-  "releaseDate": null
+  "sql": "SELECT * FROM users",
+  "title": "The Godfather",
+  "year": 1975,
+  "director": "Francis Ford Coppola",
+  "duration": 175,
+  "poster": "https://img.fruugo.com/product/4/49/14441494_max.jpg",
+  "genre": [
+    "Crime",
+    "Drama"
+  ]
+}
+
+###modificar una columna de la base de datos
+PATCH http://localhost:1234/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+Content-Type: application/json
+
+{
+  "title":"cambiesito",
+  "year":1998
 }
